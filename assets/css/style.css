@@ -283,7 +283,7 @@ footer {
 .fm1, .fm2, .fm3 {
     flex: 1;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
 .fm1 {
@@ -317,4 +317,89 @@ footer {
     line-height: 40px;
     color: #5c5c5c;
     margin-top: 30px;
+}
+
+.fm_title {
+    font-size: 21px;
+}
+
+.fm_desc {
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.footer_widget_body {
+    color: #5D5D5D;
+}
+
+.footer_contact a {
+    text-decoration: none;
+}
+
+.footer_contact span {
+    color: #ffffff;
+}
+
+.footer_adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.footer_widget_text {
+    display: flex;
+}
+
+.footer_widget_desc {
+    margin-bottom: 20px;
+}
+
+.footer_socialMedia {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer_socialMedia a {
+    padding:    3px;
+    background-color: #222222;
+    margin-top: 20px;
+}
+
+.footer_socialMedia a img {
+    width: 20px;
+    height: 20px;
+}
+
+#email-icon {
+    filter: brightness(0%);
+}
+
+.lastest_post_text {
+    display: flex;
+    color: #fffffF;
+    gap: 10px;
+    margin-top: 20px;
+}
+.ago_lastest_post, .ago_lastest_tweet {
+    margin-top: 5px;
+    margin-left: 25px;
+    color: #137cb1;
+}
+
+.lastest_tweet_text {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.lastest_tweet_text_active {
+    color: #FFFFFF;
 }
