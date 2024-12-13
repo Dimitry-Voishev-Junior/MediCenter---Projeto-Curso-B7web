@@ -71,6 +71,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
 }
 
 .banner_headline h1 {
@@ -402,4 +403,79 @@ footer {
 
 .lastest_tweet_text_active {
     color: #FFFFFF;
+}
+
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0px;
+}
+
+@media (max-width:700px) {
+
+    #banner {
+        height: auto;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .footer_menu, .footer_area {
+        flex-direction: column;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fffffF;
+    }
+
+    header {
+        height: auto;
+    }
+    
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mm_line {
+        height: 3px;
+        background-color: #39aae1;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .widget_box {
+        justify-content: center;
+    }
 }
